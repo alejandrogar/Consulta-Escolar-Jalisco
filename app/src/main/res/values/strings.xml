@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">Consulta Escolar</string>
+
+    <string name="API_KEY">AIzaSyDiT7ZE0Qv4Y5c_1xOZeQmZX7qQnCusUxM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="logo">logo</string>
+    <string name="title_activity_main">Consulta Escolar</string>
+
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_share">Compartir</string>
+    <string name="title_activity_view_page">VerPágina</string>
+    <string name="title_pre_inscription">¿A qué nivel desea Preinscribir?</string>
+    <string name="next">Siguiente</string>
+    <string name="p_preescolar">Preinscripción Preescolar</string>
+    <string name="p_primaria_secundaria">Preinscripción Primaria/Secundaria</string>
+
+    <string name="curp">C.U.R.P. del Aspirante</string>
+
+    <string-array name="niveles">
+        <item>Selecionar un nivel</item>
+        <item>Preescolar</item>
+        <item>Primaria</item>
+        <item>Secundaria</item>
+    </string-array>
+
+    <string-array name="genero">
+        <item>No Capturado</item>
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string-array name="grados_primaria">
+        <item>Primero</item>
+        <item>Segundo</item>
+        <item>Tercero</item>
+        <item>Cuarto</item>
+        <item>Quinto</item>
+        <item>Sexto</item>
+    </string-array>
+
+    <string-array name="grados_secundaria">
+        <item>Primero</item>
+        <item>Segundo</item>
+        <item>Tercero</item>
+    </string-array>
+
+
+    <string name="primero">Primero</string>
+    <string name="segundo">Segundo</string>
+    <string name="tercero">Tercero</string>
+    <string name="cuarto">Cuarto</string>
+    <string name="quinto">Quinto</string>
+    <string name="sexto">Sexto</string>
+    <string name="cct">Clave de la Escuela</string>
+    <string name="matricula">Matrícula</string>
+    <string name="password">Contraseña</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Nombre</string>
+    <string name="grado">Grado</string>
+    <string name="f_nacimiento">Fecha de nacimiento</string>
+    <string name="e_nacimiento">Entidad de nacimiento</string>
+    <string name="gender">Género</string>
+    <string name="datos_generales_del_alumno">Datos Generales del alumno.</string>
+    <string name="datos_generales_subtitle">Revise que los datos sean correctos y presione el botón para continuar.</string>
+    <string name="datos_personales">Datos Personales Padre, Madre ó Tutor</string>
+    <string name="calle">Calle</string>
+    <string name="numero_exterior">Número Exterior</string>
+    <string name="numero_interior">Número Interior</string>
+    <string name="entre_calle">Entre Calle</string>
+    <string name="y_calle">Y Calle</string>
+    <string name="c_postal">Código Postal</string>
+    <string name="colonia">Colonia</string>
+    <string name="municipio">Municipio</string>
+    <string name="alert_data_empty">Revise que los datos no estén vacíos o erróneos.</string>
+    <string name="review">Revisar</string>
+    <string name="correct_data">Datos Correctos</string>
+    <string name="dom">Domicilio</string>
+    <string name="select_de_escuelas">Selección de Escuelas</string>
+    <string name="help_select_escuelas">Toca en cada opción para llenar los datos en orden de preferencia.</string>
+    <string name="si_no_conoces_la_clave_de_la_escuela_toca_aqu">Si no conoces la clave de la escuela puedes buscarla por nombre.</string>
+    <string name="help_preescolar">Si su hijo(a) no nació en Jalisco favor de realizar la inscripción directamente en la escuela.</string>
+    <string name="continuar">Continuar</string>
+    <string name="exit">Salir</string>
+    <string name="help_secundaria_primaria">¿Dónde puedo encontrar estos datos?</string>
+    <string name="datos_personales_subtitle">Es importante poner datos válidos ya que se le enviará información sobre la preinscripción</string>
+    <string name="cel">Celular</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="tel">Teléfono fijo</string>
+    <string name="help_curp">¿No conoces tu CURP? Toca aquí!</string>
+
+    <string-array name="municipios">
+        <item>Municipio</item>
+        <item>Acatic</item>
+        <item>Acatlan De Juarez</item>
+        <item>Ahualulco De Mercado</item>
+        <item>Amacueca</item>
+        <item>Amatitán</item>
+        <item>Ameca</item>
+        <item>Arandas</item>
+        <item>Atemajac De Brizuela</item>
+        <item>Atengo</item>
+        <item>Atenguillo</item>
+        <item>Atotonilco El Alto</item>
+        <item>Atoyac</item>
+        <item>Autlán De Navarro</item>
+        <item>Ayotlán</item>
+        <item>Ayutla</item>
+        <item>Bolaños</item>
+        <item>Cabo Corrientes</item>
+        <item>Cañadas De Obregón</item>
+        <item>Casimiro Castillo</item>
+        <item>Chapala</item>
+        <item>Chimaltitán</item>
+        <item>Chiquilistlán</item>
+        <item>Cihuatlán</item>
+        <item>Cocula</item>
+        <item>Colotlán</item>
+        <item>Concepción De Buenos Aires</item>
+        <item>Cuautitlán De García Barragán</item>
+        <item>Cuautla</item>
+        <item>Cuquío</item>
+        <item>Degollado</item>
+        <item>Ejutla</item>
+        <item>El Arenal</item>
+        <item>El Grullo</item>
+        <item>El Limón</item>
+        <item>El Salto</item>
+        <item>Encarnación De Díaz</item>
+        <item>Etzatlán</item>
+        <item>Gómez Farías</item>
+        <item>Guachinango</item>
+        <item>Guadalajara</item>
+        <item>Hostotipaquillo</item>
+        <item>Huejúcar</item>
+        <item>Huejuquilla El Alto</item>
+        <item>Ixtlahuacán De Los Membrillos</item>
+        <item>Ixtlahuacán Del Río</item>
+        <item>Jalostotitlán</item>
+        <item>Jamay</item>
+        <item>Jesús María</item>
+        <item>Jilotlán De Los Dolores</item>
+        <item>Jocotepec</item>
+        <item>Juanacatlán</item>
+        <item>Juchitlán</item>
+        <item>La Barca</item>
+        <item>Lagos De Moreno</item>
+        <item>La Huerta</item>
+        <item>La Manzanilla De La Paz</item>
+        <item>Magdalena</item>
+        <item>Mascota</item>
+        <item>Mazamitla</item>
+        <item>Mexticacán</item>
+        <item>Mezquitic</item>
+        <item>Mixtlán</item>
+        <item>Ocotlán</item>
+        <item>Ojuelos De Jalisco</item>
+        <item>Pihuamo</item>
+        <item>Poncitlán</item>
+        <item>Puerto Vallarta</item>
+        <item>Quitupan</item>
+        <item>San Cristóbal De La Barranca</item>
+        <item>San Diego De Alejandría</item>
+        <item>San Gabriel</item>
+        <item>San Ignacio Cerro Gordo</item>
+        <item>San Juan De Los Lagos</item>
+        <item>San Juanito De Escobedo</item>
+        <item>San Julián</item>
+        <item>San Marcos</item>
+        <item>San Martín De Bolaños</item>
+        <item>San Martín Hidalgo</item>
+        <item>San Miguel El Alto</item>
+        <item>San Sebastián Del Oeste</item>
+        <item>Santa María Del Oro</item>
+        <item>Santa María De Los Ángeles</item>
+        <item>Sayula</item>
+        <item>Tala</item>
+        <item>Talpa De Allende</item>
+        <item>Tamazula De Gordiano</item>
+        <item>Tapalpa</item>
+        <item>Tecalitlán</item>
+        <item>Techaluta De Montenegro</item>
+        <item>Tecolotlán</item>
+        <item>Tenamaxtlán</item>
+        <item>Teocaltiche</item>
+        <item>Teocuitatlán De Corona</item>
+        <item>Tepatitlán De Morelos</item>
+        <item>Tequila</item>
+        <item>Teuchitlán</item>
+        <item>Tizapán El Alto</item>
+        <item>Tlajomulco De Zúñiga</item>
+        <item>San Pedro Tlaquepaque</item>
+        <item>Tolimán</item>
+        <item>Tomatlán</item>
+        <item>Tonalá</item>
+        <item>Tonaya</item>
+        <item>Tonila</item>
+        <item>Totatiche</item>
+        <item>Tototlán</item>
+        <item>Tuxcacuesco</item>
+        <item>Tuxcueca</item>
+        <item>Tuxpan</item>
+        <item>Unión De San Antonio</item>
+        <item>Unión De Tula</item>
+        <item>Valle De Guadalupe</item>
+        <item>Valle De Juárez</item>
+        <item>Villa Corona</item>
+        <item>Villa Guerrero</item>
+        <item>Villa Hidalgo</item>
+        <item>Villa Purificación</item>
+        <item>Yahualica De González Gallo</item>
+        <item>Zacoalco De Torres</item>
+        <item>Zapopan</item>
+        <item>Zapotiltic</item>
+        <item>Zapotitlán De Vadillo</item>
+        <item>Zapotlán Del Rey</item>
+        <item>Zapotlanejo</item>
+        <item>Zapotlán El Grande</item>
+    </string-array>
+    <string name="title_activity_get_curp">Consulta CURP</string>
+    <string name="searchCct">Buscar escuelas por nombre</string>
+    <string name="cct_error">La clave de Centro de Trabajo que ha escrito NO existe, o no corresponde al nivel, por favor verifiquelo e intentelo nuevamente.</string>
+    <string name="search">Buscar</string>
+    <string name="select_as_option">Mantén presionado para seleccionar como una opción</string>
+    <string name="back">Regresar</string>
+    <string name="continue_">Continuar</string>
+    <string name="consultar">Consultar</string>
+    <string name="requiered">Campo obligatorio</string>
+    <string name="select_as_title">Seleccionar como opción...</string>
+    <string name="special_data">Datos Especiales</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="special_q_1">¿Presenta Alguna Discapacidad o padece enfermedad crónica?</string>
+    <string name="special_q_2">¿Tiene hermano(a) en la escuela que solicita preinscripción?</string>
+    <string name="special_q_3">¿Realiza el trámite junto con algún hermano(a)?</string>
+
+    <string name="answer_special_q_1">En caso de Discapacidad o enfermedad crónica indique el turno al que asiste a terapia o conulta</string>
+    <string name="no_asiste">No asiste</string>
+    <string name="matutino">Matutino</string>
+    <string name="vespertino">Vespertino</string>
+    <string name="grupo">Grupo</string>
+    <string name="turno">Turno</string>
+    <string name="padre">Padre</string>
+    <string name="madre">Madre</string>
+    <string name="ambos">Ambos</string>
+    <string name="tutor">Tutor</string>
+    <string name="poll_question_2">¿Quién sostiene económicamente el hogar?</string>
+    <string name="poll_question_1">¿Con quién vive el alumnos solicitante?</string>
+    <string name="poll_question_3">¿El alumno solicitante tiene hermanos en el plantel?</string>
+    <string name="alert_no_internet">Revise su conexión a internet e intente de nuevo.</string>
+
+    <string-array name="dis_opc">
+        <item>Ninguna</item>
+        <item>Autismo</item>
+        <item>Ceguera</item>
+        <item>Discapacidad Auditiva</item>
+        <item>Discapacidad Intelectual</item>
+        <item>Discapacidad Multiple</item>
+        <item>Discapacidad Motriz</item>
+        <item>Discapacidad Visual</item>
+        <item>Enfermedad Cronica</item>
+        <item>Hipoacusia</item>
+        <item>Otra Discapacidad</item>
+        <item>Problemas De Comunicacion</item>
+        <item>Problemas De Conducta</item>
+        <item>Sordera</item>
+        <item>Sobreinteligencia</item>
+    </string-array>
+
+    <string-array name="dis_opc_key">
+        <item>0N</item>
+        <item>AU</item>
+        <item>C</item>
+        <item>DA</item>
+        <item>DI</item>
+        <item>DM</item>
+        <item>DMO</item>
+        <item>DV</item>
+        <item>EC</item>
+        <item>HA</item>
+        <item>O</item>
+        <item>PC</item>
+        <item>PCN</item>
+        <item>S</item>
+        <item>SI</item>
+    </string-array>
+
+    <string name="title_activity_assignment">Consulta de Asignación</string>
+    <string name="help_matricula">No tiene la matrícula del Aspirante, toque aqui</string>
+    <string name="try_again">Intentar de nuevo</string>
+
+</resources>

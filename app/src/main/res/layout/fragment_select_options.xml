@@ -1,0 +1,494 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="mx.gob.jalisco.edu.consultaescolar.fragments.SelectOptions">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_selec_escuelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_de_escuelas"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:textSize="30sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/help_select_escuelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help_select_escuelas"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/half_margin"
+            android:layout_marginBottom="@dimen/half_margin"
+            android:textColor="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/open_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/si_no_conoces_la_clave_de_la_escuela_toca_aqu"/>
+
+                <EditText
+                    android:id="@+id/searchCCT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/PrimaryText"
+                    android:inputType="text"
+                    android:textColorHint="#b1b1b1"
+                    android:hint="@string/name"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/input_background_white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/municipio"
+                        android:textSize="17dp"
+                        android:textColor="#6e6e6e"
+                        android:layout_marginTop="16dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/municipios"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/title"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:background="@drawable/spinner_background"/>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="0.1"
+                            android:tint="@color/colorAccent"
+                            android:layout_marginLeft="-40dp"
+                            android:src="@drawable/ic_arrow_drop_down"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/error_mun"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Campo requerido"
+                        android:textSize="14dp"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="@android:color/holo_red_light"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/search_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/colorAccent"
+                    android:layout_marginTop="@dimen/half_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/half_margin"
+                    android:text="@string/search"/>
+
+                <TextView
+                    android:id="@+id/help_copy_to_clipboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_as_option"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/half_margin"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="@dimen/half_margin"
+                    android:textColor="@color/colorAccent"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/search_result"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_marginBottom="@dimen/half_margin"
+                    android:layout_height="160dp"/>
+
+
+            </LinearLayout>
+
+        <!--==================================
+                 Opciones de Escuelas
+            ==================================-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="@dimen/half_margin"
+                            android:padding="@dimen/half_margin">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17dp"
+                                android:text="Opción 1"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                                android:textColor="@color/PrimaryText"/>
+
+                            <EditText
+                                android:id="@+id/textOpc_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/PrimaryText"
+                                android:inputType="text"
+                                android:textColorHint="#b1b1b1"
+                                android:maxLength="10"
+                                android:hint="@string/cct"
+                                android:padding="4dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                                android:background="@drawable/input_background"/>
+
+                            <TextView
+                                android:id="@+id/nombre1"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nombre de la Escuela"
+                                android:textColor="@color/colorAccent"
+                                android:textAllCaps="false"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                            <TextView
+                                android:id="@+id/municipio1"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Municipio"
+                                android:textAllCaps="false"
+                                android:textColor="@color/SecondaryText"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="@dimen/half_margin"
+                            android:padding="@dimen/half_margin">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17dp"
+                                android:text="Opción 2"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                                android:textColor="@color/PrimaryText"/>
+
+                            <EditText
+                                android:id="@+id/textOpc_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/PrimaryText"
+                                android:inputType="text"
+                                android:textColorHint="#b1b1b1"
+                                android:maxLength="10"
+                                android:hint="@string/cct"
+                                android:padding="4dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                                android:background="@drawable/input_background"/>
+
+                            <TextView
+                                android:id="@+id/nombre2"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nombre de la Escuela"
+                                android:textColor="@color/colorAccent"
+                                android:textAllCaps="false"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                            <TextView
+                                android:id="@+id/municipio2"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Municipio"
+                                android:textAllCaps="false"
+                                android:textColor="@color/SecondaryText"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="@dimen/half_margin"
+                            android:padding="@dimen/half_margin">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17dp"
+                                android:text="Opción 3"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                                android:textColor="@color/PrimaryText"/>
+
+                            <EditText
+                                android:id="@+id/textOpc_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/PrimaryText"
+                                android:inputType="text"
+                                android:textColorHint="#b1b1b1"
+                                android:maxLength="10"
+                                android:hint="@string/cct"
+                                android:padding="4dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                                android:background="@drawable/input_background"/>
+
+                            <TextView
+                                android:id="@+id/nombre3"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nombre de la Escuela"
+                                android:textColor="@color/colorAccent"
+                                android:textAllCaps="false"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                            <TextView
+                                android:id="@+id/municipio3"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Municipio"
+                                android:textAllCaps="false"
+                                android:textColor="@color/SecondaryText"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="@dimen/half_margin"
+                            android:padding="@dimen/half_margin">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17dp"
+                                android:text="Opción 4"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                                android:textColor="@color/PrimaryText"/>
+
+                            <EditText
+                                android:id="@+id/textOpc_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/PrimaryText"
+                                android:inputType="text"
+                                android:textColorHint="#b1b1b1"
+                                android:maxLength="10"
+                                android:hint="@string/cct"
+                                android:padding="4dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                                android:background="@drawable/input_background"/>
+
+                            <TextView
+                                android:id="@+id/nombre4"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nombre de la Escuela"
+                                android:textColor="@color/colorAccent"
+                                android:textAllCaps="false"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                            <TextView
+                                android:id="@+id/municipio4"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Municipio"
+                                android:textAllCaps="false"
+                                android:textColor="@color/SecondaryText"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="@dimen/half_margin"
+                            android:padding="@dimen/half_margin">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17dp"
+                                android:text="Opción 5"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                                android:textColor="@color/PrimaryText"/>
+
+                            <EditText
+                                android:id="@+id/textOpc_5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/PrimaryText"
+                                android:inputType="text"
+                                android:textColorHint="#b1b1b1"
+                                android:maxLength="10"
+                                android:hint="@string/cct"
+                                android:padding="4dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                                android:background="@drawable/input_background"/>
+
+                            <TextView
+                                android:id="@+id/nombre5"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nombre de la Escuela"
+                                android:textColor="@color/colorAccent"
+                                android:textAllCaps="false"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                            <TextView
+                                android:id="@+id/municipio5"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Municipio"
+                                android:textAllCaps="false"
+                                android:textColor="@color/SecondaryText"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginTop="@dimen/half_margin"/>
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

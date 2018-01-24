@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/general_data_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="80dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encuesta de tiempo completo"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:textSize="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_question_1"
+                android:textColor="@color/PrimaryText"
+                android:textSize="17sp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_p_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton android:id="@+id/padre_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/padre"/>
+                <RadioButton android:id="@+id/madre_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/madre"/>
+                <RadioButton android:id="@+id/ambos_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ambos"/>
+                <RadioButton android:id="@+id/tutor_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tutor"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_question_2"
+                android:textColor="@color/PrimaryText"
+                android:textSize="17sp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_p_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton android:id="@+id/padre_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/padre"/>
+                <RadioButton android:id="@+id/madre_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/madre"/>
+                <RadioButton android:id="@+id/ambos_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ambos"/>
+                <RadioButton android:id="@+id/tutor_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tutor"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_question_3"
+                android:textColor="@color/PrimaryText"
+                android:textSize="17sp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_p_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton android:id="@+id/poll_si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"/>
+                <RadioButton android:id="@+id/poll_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Está dispuesto a cumplir con los puntos que contiene la Carta Compromiso?"
+                android:textColor="@color/PrimaryText"
+                android:textSize="17sp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_p_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton android:id="@+id/poll_2_si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"/>
+                <RadioButton android:id="@+id/poll_2_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/download_letter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descarge Aquí su Carta compromiso e Ingreso a Escuela de Tiempo Completo"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Por qué motivo elige Tiempo Completo?"
+                android:textColor="@color/PrimaryText"
+                android:textSize="17sp"/>
+
+            <RadioGroup
+                android:id="@+id/radio_p_5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp">
+
+                <RadioButton android:id="@+id/poll_5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Por cercanía a su domicilio"/>
+                <RadioButton android:id="@+id/poll_5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Porque trabaja"/>
+                <RadioButton android:id="@+id/poll_5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Por calidad Educativa "/>
+                <RadioButton android:id="@+id/poll_5_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Única opción  en su localidad"/>
+                <RadioButton android:id="@+id/poll_5_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Porque es Padre o Madre soltera"/>
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

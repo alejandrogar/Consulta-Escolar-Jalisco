@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="@dimen/half_margin"
+    android:layout_marginBottom="@dimen/half_margin"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/half_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cct_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Escuela"
+            android:textSize="15dp"
+            android:textColor="@color/PrimaryText"/>
+
+        <TextView
+            android:id="@+id/cct_clave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14DPR0469A"
+            android:layout_marginTop="@dimen/half_margin"
+            android:textColor="@color/colorAccent"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/cct_mun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zapopan"
+            android:layout_marginTop="@dimen/half_margin"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/cct_dom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calle Tal numero tal"
+            android:textColor="@color/SecondaryText"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"/>
+
+
+</android.support.v7.widget.CardView>

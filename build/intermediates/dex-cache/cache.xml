@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/material-tap-target-prompt-1.5.0.aar/61fb7de8a4072985bc49537b3189bbd5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b0a2badfd71bc70e8fa234739b5cfd53adb055e">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-identity-10.0.1.aar/f94c4864c4fd0088e63ca8a81e5736d7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-gass-10.0.1.aar/5f12ed6e63db27de012f6a6c1a53f628/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-nearby-10.0.1.aar/3f315762621629543647d3f40e185ac2/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/ddbb2b5677e682ad7de33dda03429075/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-10.0.1.aar/34012b132f503908b8c0bc78f9674d57/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-10.0.1.aar/01a4115e8d4e16168508482690ecea0d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/d6a97d29598e98d731c8c0f3cdf98f2e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-10.0.1.aar/189c247bc3c3f2160473871df8628d69/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/6eb010b46e130562c9e16d4c2bb0be95/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-plus-10.0.1.aar/90c7448e995240810a38ea9897456eea/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-10.0.1.aar/e6249556d08edfa880a5456905e5645e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/50ec239b8955a3a069d4437a9b6ffe5c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/76201ca1b532348b9f8f587f622d0778/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-crash-10.0.1.aar/78a61c249093cf6dafbe5e90797a5a38/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/d1dfc5237da1f135d41d977e877a0e3f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/bottom-bar-2.0.2.aar/65a687366fdd202eaa53a6c66dd5802d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="32534a05122d0c535cc8b885e45b1e7ce3b0f03e">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-panorama-10.0.1.aar/82c416d827fadde0f63d1e6783e8f0f7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/0de7f6c9d1aca7f3ffc3e3af73c76071/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/a58a508e90c6a120b74ca8bf508eaf05/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/5c8491269d999e9c7285fd24ab1481e9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-drive-10.0.1.aar/c2fbd65881c574e8257934d21d92b922/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-database-10.0.1.aar/97391b1637511d21a4aa75e4f856c1ff/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-config-10.0.1.aar/410f5c2b67ffa541ed5a66c156ac4fe0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/21c0a1366fd552993145ef3d47599979/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.1.aar/8a7a094f798bfb2144e13ac254700e5a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/f44b923fe14ed21789356887a9ceefca/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/c0df733d56635c8db42410bda1f831d4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/2c5861557ce7b2bbccef17430f003a2b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.0.1.aar/f7848bf91964a49cf1987ee407f624cf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-awareness-10.0.1.aar/daa03582750728e504e606fbd94872d2/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/1bfd165962d22f1c073a133220e2ebdf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/79710aa77a905a0d3e06420cb10deafe/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/expandable-layout-1.6.0.aar/5fb751aa97226218eb82f04f8df7db68/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3cef25b344d6893e5e2d9b1ae38d180955e9d3ef">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-10.0.1.aar/0370d580c64af7f121674638287ed70c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-analytics-10.0.1.aar/752f0f91f61d2268bc748e2b88bd0ac0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/35a38d9c9f3a38921204927d151e6028/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-auth-10.0.1.aar/38933aa8a1e281dd04f859f539384316/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-10.0.1.aar/ba226e7e9ba0e1b5c0c1d4fdb79c5176/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/design-25.1.1.aar/e8312c03ba525b4199faab4b21c0a08d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/83514580f75d83c212f25936ce2a6032/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/transition-25.1.1.aar/68636da35db69fa9f22bbf5778ba9887/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-10.0.1.aar/3b01380b781d9eaa504ffca7df65c6d4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-places-10.0.1.aar/e6d12ed1ffb2f9619bcc952f2732942e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-10.0.1.aar/ede9de5e2f3123c690c4c29bf9883106/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-iid-10.0.1.aar/8489e5ce658626640d4164d436bd65e3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-ads-10.0.1.aar/7c9cab5a6f65576a21e50532d83d7d47/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-10.0.1.aar/ed7a7475936a082589d89fa1b81cd614/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/0270fc5ace721e467f9b714ec4e97d7d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/db28ddb4a0181e985544c0297b7dd040/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/frag-nav-1.0.3.aar/bdbd11d375a04a379ae84da58b24f790/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5127f7722fefeac113579392867b5c580de2d90b">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-storage-10.0.1.aar/1b810a87dfdd32098066c7eef4a4a476/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-10.0.1.aar/15066093ebc1ae433524fda68e5cb3d6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-10.0.1.aar/2213b8c97ed40a06286a9b9b2b680496/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-games-10.0.1.aar/31ae9d70081559d2d4760387e2f7c1a9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-10.0.1.aar/a90c5c499db3cab68bbc053ea9ab011f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/palette-v7-24.0.0.aar/474b19538cfcd0c2069d4fc6dd11bdd1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/multidex-1.0.1.aar/b963b77efe5a04a90ee745a09b730a3d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-fitness-10.0.1.aar/64294d160d8d5627c0d875840c0a9f1d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-10.0.1.aar/d78f59e549cd6c582caada0e42297e7f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/db28ddb4a0181e985544c0297b7dd040/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5e02aa2edfe4ff06d0c9f851ba1c59b3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/faafee9575e37262dbeb8b1d351cdd56/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-wearable-10.0.1.aar/db56baf4fb8ca8931b5de0282394836e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-wallet-10.0.1.aar/213a664f959ccc99f5ddad3c4b5321bf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-10.0.1.aar/a01d1b65ce0df63fb54851ca9f400586/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-cast-10.0.1.aar/137f9b2b31f930540d0fdfcff11e728b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/64acccc74d9d66c56aec89a03239d933/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.0.1.aar/45da04de0ad1a8460d34125ab89db59d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manny/.gradle/caches/transforms-1/files-1.1/play-services-location-10.0.1.aar/9c067dd114bb2b96c4ed958f462831e4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/manny/Documents/AndroidProyects/ConsultaEscolar/app/build/intermediates/transforms/preDex/release/32/classes.dex" />
+    </item>
+
+</items>

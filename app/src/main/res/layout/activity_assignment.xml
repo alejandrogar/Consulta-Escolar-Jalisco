@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="mx.gob.jalisco.edu.consultaescolar.Assignment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_assignment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/tablet_margin_horizontal"
+        android:layout_marginRight="@dimen/tablet_margin_horizontal"
+        android:background="@color/background"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:focusableInTouchMode="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ViewFlipper
+                android:id="@+id/content_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Selecciona el nivel para consultar la asignación"
+                            style="@style/Base.TextAppearance.AppCompat.Title"
+                            android:textSize="30dp"
+                            android:layout_marginTop="16dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="60dp"
+                            android:orientation="horizontal">
+
+                            <Spinner
+                                android:id="@+id/niveles"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_below="@+id/title"
+                                android:paddingTop="8dp"
+                                android:paddingBottom="8dp"
+                                android:entries="@array/niveles"
+                                android:background="@drawable/spinner_background"/>
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="0.1"
+                                android:tint="@color/colorAccent"
+                                android:layout_marginLeft="-40dp"
+                                android:src="@drawable/ic_arrow_drop_down"/>
+
+                        </LinearLayout>
+
+
+                        <ViewFlipper
+                            android:id="@+id/fields_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginTop="16dp">
+
+                                    <ImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/ic_grain_black"
+                                        android:tint="@color/icons"
+                                        android:layout_gravity="center_vertical"/>
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:id="@+id/matricula"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="8dp">
+
+                                        <android.support.design.widget.TextInputEditText
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/PrimaryText"
+                                            android:inputType="number"
+                                            android:maxLength="8"
+                                            android:hint="@string/matricula" />
+
+                                    </android.support.design.widget.TextInputLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginRight="16dp">
+
+                                    <TextView
+                                        android:id="@+id/help_matricula"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/help_matricula"
+                                        android:layout_marginTop="@dimen/half_margin"
+                                        android:layout_marginBottom="@dimen/half_margin"
+                                        android:textColor="@color/colorPrimary"/>
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/half_margin"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/ic_domain_black"
+                                        android:tint="@color/icons"
+                                        android:layout_gravity="center_vertical"/>
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:id="@+id/cct"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="8dp">
+
+                                        <android.support.design.widget.TextInputEditText
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/PrimaryText"
+                                            android:inputType="text"
+                                            android:maxLength="10"
+                                            android:hint="@string/cct" />
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/half_margin"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/ic_face_black_24dp"
+                                        android:tint="@color/icons"
+                                        android:layout_gravity="center_vertical"/>
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:id="@+id/last_name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="8dp">
+
+                                        <android.support.design.widget.TextInputEditText
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/PrimaryText"
+                                            android:inputType="text"
+                                            android:hint="Primer Apellido" />
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/half_margin"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/ic_face_black_24dp"
+                                        android:tint="@color/icons"
+                                        android:layout_gravity="center_vertical"/>
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:id="@+id/name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginBottom="8dp">
+
+                                        <android.support.design.widget.TextInputEditText
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/PrimaryText"
+                                            android:inputType="text"
+                                            android:hint="Nombre(s)" />
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </ViewFlipper>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="16dp">
+
+                            <Button
+                                android:id="@+id/send"
+                                android:text="@string/consultar"
+                                android:layout_width="0dp"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/colorAccent"
+                                android:layout_weight=".50"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/done"/>
+
+                        <TextView
+                            android:id="@+id/assigned_message"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Su hijo(a) está asignado a la escuela :"
+                            style="@style/Base.TextAppearance.AppCompat.Title"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="30dp"
+                            android:layout_marginTop="16dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/school_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre de la escuela"
+                        style="@style/Base.TextAppearance.AppCompat.Title"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp"/>
+
+                    <TextView
+                        android:id="@+id/cct_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Clave"
+                        style="@style/Base.TextAppearance.AppCompat.Title"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp"/>
+
+                    <TextView
+                        android:id="@+id/turno_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Turno"
+                        style="@style/Base.TextAppearance.AppCompat.Title"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp"/>
+
+                    <TextView
+                        android:id="@+id/name_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre del aspirante"
+                        android:textSize="19dp"
+                        android:textColor="#8e8e8e"/>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/escuelas_top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginTop="16dp"
+                        android:text="Si necesitas más información o realizar un cambio ingresa a: http://inscripciones.jalisco.gob.mx/inscribe/"/>
+                    
+                </LinearLayout>
+            </ViewFlipper>
+
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

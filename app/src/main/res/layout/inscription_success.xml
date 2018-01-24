@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Preinscripción satisfactoria"
+            android:layout_marginLeft="@dimen/half_margin"
+            android:layout_marginRight="@dimen/half_margin"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:textAlignment="center"
+            android:id="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/dialog_imageview"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/done"
+            android:layout_marginLeft="@dimen/half_margin"
+            android:layout_marginRight="@dimen/half_margin"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="En unos minutos llegará el comprobante de inscripción al correo electrónico proporcionado"
+            android:layout_below="@+id/dialog_imageview"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agradecemos que califiques esta App"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/textView2"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/download_pdf"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="Descargar Comprobante"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/half_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/rate"/>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Inscription">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:navigationIcon="@drawable/ic_action_close_white"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_inscription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/tablet_margin_horizontal"
+        android:layout_marginRight="@dimen/tablet_margin_horizontal"
+        android:background="@color/background"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="@string/next"
+            android:id="@+id/next"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"/>-->
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/next_"
+                android:src="@drawable/ic_action_back"
+                android:layout_marginBottom="@dimen/half_margin"
+                app:backgroundTint="@color/colorPrimary"
+                android:tint="@color/white"
+                android:layout_marginRight="@dimen/half_margin"
+                app:fabSize="normal"
+                android:clickable="true"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/next__"
+                android:src="@drawable/ic_action_next"
+                android:layout_marginBottom="@dimen/half_margin"
+                app:backgroundTint="@color/colorPrimary"
+                android:tint="@color/white"
+                app:fabSize="normal"
+                android:clickable="true"/>
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tablet_margin_horizontal"
+            android:layout_marginRight="@dimen/tablet_margin_horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="@color/background"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:text="@string/back"
+                android:layout_width="0dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"/>
+
+            <Button
+                android:id="@+id/next"
+                android:text="@string/continue_"
+                android:layout_width="0dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_weight=".50"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

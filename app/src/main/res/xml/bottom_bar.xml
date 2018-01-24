@@ -1,0 +1,19 @@
+<tabs>
+    <tab
+        id="@+id/tab_services"
+        icon="@drawable/ic_action_social_school_white"
+        title="Servicios"/>
+
+    <tab
+        id="@+id/tab_info"
+        icon="@drawable/ic_action_icono_escuela_white"
+        title="Información"/>
+
+    <tab
+        id="@+id/tab_notifications"
+        icon="@drawable/ic_action_social_notifications"
+        title="Notificaciones"/>
+    <!--
+        barColorWhenSelected="#FF5381"
+    -->
+</tabs>
